@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "twins",
+  "version": "${version}",
+
+  "name": "Magebullshitery API",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Temmie",
+    "Henwee"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JustTemmie/Twineshaft-API/",
+    "sources": "https://github.com/JustTemmie/Twineshaft-API/"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.temmie.twins.TwinsAPI"
+    ]
+  },
+  "mixins": [
+    "twins.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

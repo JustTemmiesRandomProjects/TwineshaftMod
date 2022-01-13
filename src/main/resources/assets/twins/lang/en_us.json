@@ -1,5 +1,7 @@
 {
-  "item.twins.teleport_star": "Lanuae!",
+  "item.twins.teleport_star": "Apparating!",
   "item.twins.fireball_spell": "Incendio!",
-  "item.twins.sphere_of_darkness_spell": "Tenebris!"
+  "item.twins.sphere_of_darkness_spell": "Tenebris!",
+  "item.twins.up_vote": "Usque ad suffragium",
+  "item.twins.down_vote": "In voto",
 }

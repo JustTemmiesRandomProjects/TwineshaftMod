@@ -9,11 +9,16 @@ import net.temmie.twins.TwinsAPI;
 
 public class ModItems {
 
+    public static final Item POTION = registerItem("potion", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    
     public static final Item TELEPORT_STAR = registerItem("teleport_star", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item FIREBALL = registerItem("fireball_spell", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item SPHERE_OF_DARKNESS_SPELL = registerItem("sphere_of_darkness_spell", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item UP_VOTE = registerItem("up_vote", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item DOWN_VOTE = registerItem("down_vote", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item BEAVER_SPELL = registerItem("beaver_spell", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item AXOLOTL_SPELL = registerItem("axolotl_spell", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item SUSSY = registerItem("sussy", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
 

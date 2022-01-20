@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "twins:item/upvote"
+    "layer0": "twins:item/up_vote"
   }
 }

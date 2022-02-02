@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-      "layer0": "twins:item/beaver"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "twins:item/teleport_star"
   }
+}

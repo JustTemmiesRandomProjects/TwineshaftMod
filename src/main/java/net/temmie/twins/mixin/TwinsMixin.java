@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class TwinsMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		TwinsAPI.LOGGER.info("This line is printed by an example mod mixin!");
+		TwinsAPI.LOGGER.info("Beaver!");
 	}
 }
